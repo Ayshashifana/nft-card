@@ -1,0 +1,142 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+   width: 100vw;
+   background-color:  hsl(217, 54%, 11%);
+
+   font-family: 'Outfit', sans-serif;
+}
+h5{
+    font-size: 18px;
+    font-weight:400;
+  }
+.card{
+    width: 18rem;
+
+}
+.card-text{
+    font-size: 14px;
+    color:darkgray;
+    margin: 10px 0px;
+
+}
+.cardbody{
+    padding: 0px;
+}
+.card-img-top{
+    padding: 10px;
+    border-radius: 20px;
+}
+.cardtop{
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+}
+
+
+.small-texts{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    padding:5px;
+}
+.card-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px auto;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    border-radius: 10px;
+    box-shadow: hsla(216, 76%, 8%, 0.123) 0 30px 3px 10px;
+}
+.price-tex{
+    padding: 5px 0;
+    font-size: 13px;
+}
+.price,.time{
+    width: fit-content;
+}
+.price{
+    color: cyan;
+    margin: 5px;
+}
+
+.time{
+    color:darkgray;
+    margin: 5px;
+}
+
+.author{
+    display: flex;
+
+    align-items: center;
+
+}
+.author p{
+    margin: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+.auth{
+    color: whitesmoke;
+    padding: 0px 3px;
+}
+.auth:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
+}
+.card-title:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
+}
+.author-img{
+    width:25px;
+    height: 25px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color:hsl(0, 0%, 100%) ;
+
+}
+
+.author p{
+    color: darkgrey;
+
+}
+hr{
+    color: hsl(215, 32%, 27%) ;
+    margin: 5px;
+    border: 1px solid;
+}
+
+.card-img-top:hover{
+    opacity:.4;
+    transition-duration: .01s;
+    cursor: pointer;
+    background-color: cyan;
+  }
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: darkgrey;
+}
+.attribution a {
+    color:cornflowerblue;
+ }
